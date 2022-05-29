@@ -1,0 +1,41 @@
+.banner {
+  background: pink;
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.main-menu ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 25px;
+}
+.toggle-btn {
+  background: transparent;
+  border: none;
+  min-width: 44px;
+  min-height: 44px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .toggle-btn {
+    display: block;
+  }
+  .main-menu {
+    display: contents;
+  }
+  .main-menu ul {
+    display: none;
+  }
+  .main-menu.shown ul {
+    border-top: 1px solid black;
+    padding-top: 1rem;
+    display: flex;
+    flex: 1 1 100%;
+    flex-flow: column;
+  }
+}
