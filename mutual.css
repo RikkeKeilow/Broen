@@ -1,5 +1,5 @@
 .banner {
-  background: pink;
+  background: lightgray;
   padding: 2rem;
   display: flex;
   flex-wrap: wrap;
@@ -7,6 +7,7 @@
 }
 .main-menu ul {
   list-style: none;
+  text-decoration: none;
   padding: 0;
   display: flex;
   gap: 25px;
@@ -19,6 +20,10 @@
   font-size: 1.1rem;
   cursor: pointer;
   display: none;
+}
+
+footer {
+  background: lightgray;
 }
 
 @media (max-width: 600px) {
