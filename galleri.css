@@ -1,0 +1,69 @@
+@font-face {
+  font-family: overskrift;
+  src: url("fonts/marcellus-regular-webfont.woff2") format("woff2");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 2000px;
+  background: white;
+  position: relative;
+  margin: auto;
+}
+.swiper {
+  width: 80%;
+  height: fit-content;
+}
+.swiper-slide img {
+  width: 80%;
+}
+
+.swiper .swiper-button-prev,
+.swiper .swiper-button-next {
+  color: black;
+}
+.swiper .swiper-pagination-bullet-active {
+  background: black;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+p {
+  font-family: tekst;
+  margin-left: auto;
+  margin-right: auto;
+  width: 64%;
+  line-height: 2.2rem;
+  font-size: 0.9rem;
+  margin-bottom: 1.8rem;
+  margin-top: 10px;
+}
+
+h1 {
+  font-family: overskrift;
+  line-height: 2.5rem;
+  font-size: 2.5rem;
+  margin-bottom: 5rem;
+  margin-top: 40px;
+}
+
+h2 {
+  font-family: overskrift;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 64%;
+  line-height: 2.5rem;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  margin-top: 20px;
+}
