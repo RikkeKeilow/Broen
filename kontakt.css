@@ -56,6 +56,10 @@ footer {
   margin-bottom: 2%;
 } */
 
+p {
+  margin-top: 0%;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -68,18 +72,24 @@ footer {
   gap: 10px;
   width: 85px;
   height: 38px;
+
+  margin-top: 8%;
 }
 
 .tlf_icon {
   gap: 10px;
   height: 18px;
   display: flex;
+
+  margin-top: 10%;
 }
 
 .mail_icon {
   gap: 10px;
   height: 16px;
   display: flex;
+
+  margin-top: 10%;
 }
 
 main {
@@ -93,9 +103,12 @@ h2 {
 .icon_tlf {
   width: 16px;
   height: 18px;
+  margin-top: 0%;
 }
 
 .icon_email {
   width: 20px;
   height: 16px;
+
+  margin-top: 1.5%;
 }
