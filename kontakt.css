@@ -8,10 +8,10 @@ button {
   margin-top: 10px;
   background: #c6c6b5;
 }
-
-img {
+/* Hvis der skal laves billeder i 100% width, skal de have en class og kaldes img annette fx - ellers fucker iconerne i footeren*/
+/* img {
   width: 100%;
-}
+} */
 
 @media (min-width: 600px) {
   .flex {
@@ -30,57 +30,8 @@ img {
   src: url("fonts/marcellus-regular-webfont.woff2") format("woff2");
 }
 
-footer {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  background: #c6c6b5;
-  font-family: tekst;
-}
-
-.box1 {
-  margin: 10%;
-  line-height: 140%;
-}
-
-.box2 {
-  margin: 10%;
-  line-height: 140%;
-}
-
-.box3 {
-  margin: 10%;
-  line-height: 140%;
-}
-
-/* h4 {
-  margin-bottom: 2%;
-} */
-
-* {
-  margin: 0;
-  padding: 0;
-}
-
-.icons_insta {
-  display: flex;
-  /* grid-template-columns: 1fr 1fr 1fr; */
-  /* justify-content: space-between; */
-  gap: 10px;
-  width: 85px;
-  height: 38px;
-}
-
-.tlf_icon {
-  gap: 10px;
-  width: 16px;
-  height: 18px;
-  /* display: flex; */
-}
-
-.mail_icon {
-  gap: 10px;
-  width: 20px;
-  height: 16px;
+p {
+  margin-top: 0%;
 }
 
 main {
@@ -89,4 +40,9 @@ main {
 
 h2 {
   font-family: overskrift;
+}
+
+* {
+  margin: 0;
+  padding: 0;
 }
