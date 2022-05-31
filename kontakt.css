@@ -68,3 +68,16 @@ footer {
   width: 85px;
   height: 38px;
 }
+
+.tlf_icon {
+  gap: 10px;
+  width: 16px;
+  height: 18px;
+  /* display: flex; */
+}
+
+.mail_icon {
+  gap: 10px;
+  width: 20px;
+  height: 16px;
+}
