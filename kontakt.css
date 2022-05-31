@@ -72,10 +72,8 @@ footer {
 
 .tlf_icon {
   gap: 10px;
-  width: 16px;
   height: 18px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
 }
 
 .mail_icon {
