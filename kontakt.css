@@ -24,8 +24,47 @@ img {
   }
 }
 
+@font-face {
+  font-family: tekst;
+  src: url("fonts/montserrat-variablefont_wght-webfont.woff2") format("woff2");
+}
+
 footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  background: lightsteelblue;
+  background: #c6c6b5;
+  font-family: tekst;
+}
+
+.box1 {
+  margin: 10%;
+  line-height: 140%;
+}
+
+.box2 {
+  margin: 10%;
+  line-height: 140%;
+}
+
+.box3 {
+  margin: 10%;
+  line-height: 140%;
+}
+
+/* h4 {
+  margin-bottom: 2%;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.icons_insta {
+  display: flex;
+  /* grid-template-columns: 1fr 1fr 1fr; */
+  /* justify-content: space-between; */
+  gap: 10px;
+  width: 85px;
+  height: 38px;
 }
