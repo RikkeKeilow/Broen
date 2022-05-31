@@ -6,15 +6,11 @@ form {
 
 button {
   margin-top: 10px;
-}
-
-.banner {
-  background: #b0c4de;
+  background: #c6c6b5;
 }
 
 img {
   width: 100%;
-  opacity: 0.9;
 }
 
 @media (min-width: 600px) {
@@ -27,6 +23,11 @@ img {
 @font-face {
   font-family: tekst;
   src: url("fonts/montserrat-variablefont_wght-webfont.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: overskrift;
+  src: url("fonts/marcellus-regular-webfont.woff2") format("woff2");
 }
 
 footer {
@@ -80,4 +81,12 @@ footer {
   gap: 10px;
   width: 20px;
   height: 16px;
+}
+
+main {
+  font-family: tekst;
+}
+
+h2 {
+  font-family: overskrift;
 }
