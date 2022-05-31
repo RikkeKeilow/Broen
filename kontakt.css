@@ -74,7 +74,8 @@ footer {
   gap: 10px;
   width: 16px;
   height: 18px;
-  /* display: flex; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .mail_icon {
@@ -89,4 +90,14 @@ main {
 
 h2 {
   font-family: overskrift;
+}
+
+.icon_tlf {
+  width: 16px;
+  height: 18px;
+}
+
+.icon_email {
+  width: 20px;
+  height: 16px;
 }
