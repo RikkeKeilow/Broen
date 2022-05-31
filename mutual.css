@@ -21,6 +21,10 @@
   cursor: pointer;
   display: none;
 }
+.logo {
+  width: 10%;
+  height: 10%;
+}
 
 footer {
   background: lightgray;
