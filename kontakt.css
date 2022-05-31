@@ -12,6 +12,7 @@ form {
 button {
   margin-top: 10px;
   background: #c6c6b5;
+  cursor: pointer;
 }
 /* Hvis der skal laves billeder i 100% width, skal de have en class og kaldes img annette fx - ellers fucker iconerne i footeren*/
 /* img {
