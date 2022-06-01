@@ -61,10 +61,6 @@ a:hover {
   justify-self: center;
 }
 
-footer {
-  background: lightgray;
-}
-
 @media (max-width: 600px) {
   .toggle-btn {
     display: block;
@@ -82,4 +78,82 @@ footer {
     flex: 1 1 100%;
     flex-flow: column;
   }
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background: #c6c6b5;
+  font-family: tekst;
+}
+
+.box1 {
+  margin: 10%;
+  line-height: 140%;
+}
+
+.box2 {
+  margin: 10%;
+  line-height: 140%;
+}
+
+.box3 {
+  margin: 10%;
+  line-height: 140%;
+}
+
+.social_media_icons {
+  display: flex;
+  gap: 10px;
+  width: 22px;
+  height: 38px;
+  margin-top: 8%;
+}
+
+.tlf_icon {
+  gap: 10px;
+  height: 18px;
+  display: flex;
+  margin-top: 10%;
+}
+
+.mail_icon {
+  gap: 10px;
+  height: 16px;
+  display: flex;
+  margin-top: 10%;
+}
+
+.icon_tlf {
+  width: 16px;
+  height: 18px;
+  margin-top: 0%;
+}
+
+.icon_email {
+  width: 20px;
+  height: 16px;
+  margin-top: 1.5%;
+}
+
+footer p {
+  font-family: tekst;
+  line-height: 140%;
+}
+
+@font-face {
+  font-family: tekst;
+  src: url("fonts/montserrat-variablefont_wght-webfont.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: overskrift;
+  src: url("fonts/marcellus-regular-webfont.woff2") format("woff2");
+}
+h1 h2 h3 {
+  font-family: overskrift;
+}
+
+p {
+  font-family: tekst;
 }

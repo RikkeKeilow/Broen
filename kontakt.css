@@ -1,22 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 form {
   margin-left: 10px;
   width: 300px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 button {
   margin-top: 10px;
   background: #c6c6b5;
+  cursor: pointer;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 9px;
 }
-
-img {
+/* Hvis der skal laves billeder i 100% width, skal de have en class og kaldes img annette fx - ellers fucker iconerne i footeren*/
+/* img {
   width: 100%;
-}
+} */
 
 @media (min-width: 600px) {
   .flex {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    margin: 5%;
   }
 }
 
@@ -30,63 +46,54 @@ img {
   src: url("fonts/marcellus-regular-webfont.woff2") format("woff2");
 }
 
-footer {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  background: #c6c6b5;
-  font-family: tekst;
-}
-
-.box1 {
-  margin: 10%;
-  line-height: 140%;
-}
-
-.box2 {
-  margin: 10%;
-  line-height: 140%;
-}
-
-.box3 {
-  margin: 10%;
-  line-height: 140%;
-}
-
-/* h4 {
-  margin-bottom: 2%;
-} */
-
-* {
-  margin: 0;
-  padding: 0;
-}
-
-.icons_insta {
-  display: flex;
-  /* grid-template-columns: 1fr 1fr 1fr; */
-  /* justify-content: space-between; */
-  gap: 10px;
-  width: 85px;
-  height: 38px;
-}
-
-.tlf_icon {
-  gap: 10px;
-  width: 16px;
-  height: 18px;
-  /* display: flex; */
-}
-
-.mail_icon {
-  gap: 10px;
-  width: 20px;
-  height: 16px;
-}
-
 main {
   font-family: tekst;
 }
 
 h2 {
   font-family: overskrift;
+  margin: 10px;
+}
+
+.p_formular {
+  margin: 10px;
+}
+
+.maps_container {
+  width: 100%;
+  height: 350px;
+}
+
+iframe {
+  width: 100%;
+  height: 350px;
+}
+
+.annette {
+  border-radius: 50%;
+  max-width: 250px;
+  margin: 20px;
+}
+
+.kontakt_formular {
+  border: solid 1px rgb(147, 147, 147);
+  border-radius: 20px;
+  padding: 25px;
+  order: -1;
+  margin: 20px;
+}
+
+input {
+  font-family: tekst;
+  border: none;
+  border: solid 1px rgb(147, 147, 147);
+  border-radius: 4px;
+  padding: 10px 45% 10px 2px;
+  margin: 3% 0 3% 0;
+}
+
+.input_besked {
+  border-radius: 4px;
+  padding: 10px 45% 100px 2px;
+  margin: 3% 0 3% 0;
 }
