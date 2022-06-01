@@ -140,3 +140,20 @@ footer p {
   font-family: tekst;
   line-height: 140%;
 }
+
+@font-face {
+  font-family: tekst;
+  src: url("fonts/montserrat-variablefont_wght-webfont.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: overskrift;
+  src: url("fonts/marcellus-regular-webfont.woff2") format("woff2");
+}
+h1 h2 h3 {
+  font-family: overskrift;
+}
+
+p {
+  font-family: tekst;
+}
