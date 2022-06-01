@@ -1,8 +1,3 @@
-.HN_grid_1-1-1 {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
-}
 .skew_section {
   background-color: var(--primary-color);
 }
@@ -40,11 +35,27 @@ img {
 }
 .box p {
   font-size: 0.75rem;
+  padding: 10px;
+}
+.box:hover {
+  transform: scale(1.1);
+}
+.box {
+  margin-right: 0.5rem;
+}
+.box h3 {
+  font-size: 1rem;
+  padding: 10px;
 }
 @media (min-width: 600px) {
   .HN_grid_1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
+  }
+  .HN_grid_1-1-1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
   }
 }
