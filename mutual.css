@@ -177,4 +177,9 @@ h3 {
 
 p {
   font-family: tekst;
+  line-height: 140%;
+}
+
+section {
+  font-family: tekst;
 }
