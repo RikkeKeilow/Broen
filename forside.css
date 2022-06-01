@@ -46,6 +46,8 @@ figcaption {
   .grid_1-2 {
     display: grid;
     grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    margin-bottom: 10%;
   }
   .element_1 {
     order: -1;
