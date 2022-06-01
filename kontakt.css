@@ -13,6 +13,15 @@ button {
   margin-top: 10px;
   background: #c6c6b5;
   cursor: pointer;
+  border-radius: 9%;
+  border: none;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
 /* Hvis der skal laves billeder i 100% width, skal de have en class og kaldes img annette fx - ellers fucker iconerne i footeren*/
 /* img {
@@ -53,16 +62,22 @@ h2 {
 
 .maps_container {
   width: 100%;
-  height: 250px;
+  height: 350px;
 }
 
 iframe {
   width: 100%;
-  height: 250px;
+  height: 350px;
 }
 
 .annette {
   border-radius: 50%;
   max-width: 250px;
   margin: 20px;
+}
+
+.kontakt_formular {
+  border: solid 1px rgb(123, 123, 123);
+  border-radius: 9%;
+  padding: 25px;
 }
