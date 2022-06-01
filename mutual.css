@@ -164,6 +164,7 @@ footer p {
 h1 {
   font-family: overskrift;
   padding-bottom: var(--space-1);
+  margin-top: 1rem;
 }
 
 h2 {

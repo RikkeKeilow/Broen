@@ -62,7 +62,7 @@ h2 {
 }
 
 .p_formular {
-  margin: 10px 10px 5% 10px;
+  margin: 0 10px 5% 10px;
 }
 
 .maps_container {
@@ -79,6 +79,11 @@ iframe {
   border-radius: 50%;
   max-width: 250px;
   margin: 20px;
+}
+
+.kontakt_os {
+  display: grid;
+  justify-items: flex-start;
 }
 
 .kontakt_formular {
