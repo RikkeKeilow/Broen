@@ -73,7 +73,7 @@ button:hover {
   font-size: 30px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 627px) {
   .toggle-btn {
     display: block;
   }
