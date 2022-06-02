@@ -34,19 +34,20 @@ html {
 }
 
 ul {
-  padding-top: 14.5%;
+  padding-top: 13%;
   padding-right: 30px;
   display: flex;
   gap: 25px;
   justify-content: center;
 }
 
-/* nav {
+img .logo {
+  width: 100px;
+  height: 100px;
+  margin: 2rem;
   display: flex;
-  box-sizing: border-box;
-  text-align: center;
-  justify-content: center;
-} */
+  justify-self: center;
+}
 
 a {
   color: black;
@@ -64,13 +65,6 @@ a:hover {
   font-size: 1.1rem;
   cursor: pointer;
   display: none;
-}
-.logo {
-  width: 100px;
-  height: 100px;
-  margin: 1rem;
-  display: flex;
-  justify-self: center;
 }
 
 @media (max-width: 600px) {
