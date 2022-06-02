@@ -2,11 +2,6 @@
   font-family: overskrift;
   src: url("fonts/marcellus-regular-webfont.woff2") format("woff2");
 }
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
 .container {
   max-width: 2000px;
@@ -62,8 +57,4 @@ h2 {
   font-size: 1.5rem;
   margin-bottom: 1rem;
   margin-top: 20px;
-}
-
-main_menu {
-  font-family: "Montserrat", sans-serif;
 }
