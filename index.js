@@ -5,7 +5,7 @@ function toggleMenu() {
   const menuShown = menu.classList.contains("shown");
   if (menuShown) {
     console.log(menuShown);
-    btn.textContent = "luk";
+    btn.textContent = "☰";
   } else {
     console.log(menuShown);
     btn.textContent = "☰";
