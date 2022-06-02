@@ -186,3 +186,18 @@ section {
   font-family: tekst;
   line-height: 140%;
 }
+
+button {
+  margin-top: 10px;
+  background: #c6c6b5;
+  cursor: pointer;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 9px;
+  font-family: tekst;
+}
