@@ -29,10 +29,11 @@
   flex-direction: column;
 }
 
-/* img {
+.grid_2-1 img {
   max-width: 100%;
   height: auto;
-} */
+}
+
 .box p {
   font-size: 0.75rem;
   padding: 10px;
@@ -50,6 +51,8 @@
 .image1 {
   display: grid;
   grid-row: 1 / 3;
+  align-self: stretch;
+  object-fit: cover;
 }
 .image2 {
   display: grid;
