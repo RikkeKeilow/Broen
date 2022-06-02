@@ -41,10 +41,11 @@ ul {
   justify-content: center;
 }
 
-img .logo {
+a .logo {
   width: 100px;
   height: 100px;
-  margin: 2rem;
+  margin: 10rem;
+  padding: 10rem;
   display: flex;
   justify-self: center;
 }
