@@ -201,3 +201,8 @@ button {
   border-radius: 9px;
   font-family: tekst;
 }
+
+.line-1 {
+  border-top: 1px solid black;
+  margin-bottom: 20px;
+}
