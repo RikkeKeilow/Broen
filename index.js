@@ -8,7 +8,7 @@ function toggleMenu() {
     btn.textContent = "luk";
   } else {
     console.log(menuShown);
-    btn.textContent = "Menu";
+    btn.textContent = "☰";
   }
 }
 btn.addEventListener("click", toggleMenu);
