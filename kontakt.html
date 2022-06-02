@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kontakt</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="kontakt.css" />
-        <link rel="stylesheet" href="forside.css" />
+    <link rel="stylesheet" href="forside.css" />
     <link rel="stylesheet" href="mutual.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,71 +17,75 @@
   </head>
   <body>
     <header class="banner">
-      <a class="logo" href="index.html"
-        ><img src="broen_logo.svg" alt="logo" width="100px" height="100px"
-      /></a>
+      <a class="logo" href="index.html"><img src="broen_logo.svg" alt="logo" width="100px" height="100px" /></a>
       <nav class="main-menu">
         <button class="toggle-btn">☰</button>
         <ul>
           <li><a href="ombroen.html">Om Broen</a></li>
           <li><a href="for_de_unge.html">For de unge</a></li>
-           <li><a href="galleri.html">Galleri</a></li>
+          <li><a href="galleri.html">Galleri</a></li>
           <li><a href="kontakt.html">Kontakt Broen</a></li>
         </ul>
       </nav>
     </header>
 
-<main>
+    <main>
       <div class="maps_container">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d561.6145013546638!2d12.563180835630197!3d55.73317075000218!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbb73193e407e15ea!2zNTXCsDQzJzU5LjQiTiAxMsKwMzMnNTEuNSJF!5e0!3m2!1sda!2sdk!4v1654029034349!5m2!1sda!2sdk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d561.6145013546638!2d12.563180835630197!3d55.73317075000218!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbb73193e407e15ea!2zNTXCsDQzJzU5LjQiTiAxMsKwMzMnNTEuNSJF!5e0!3m2!1sda!2sdk!4v1654029034349!5m2!1sda!2sdk"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
       </div>
 
-        <div class="container">
-
-          <div class="flex">
-              <div class="kontakt_os">
-          <h2>Kontakt os</h2>
-          <p class="p_formular">Udfyld kontaktformularen for at kontakte os. Vi glæder os til at høre fra dig.</p>
-       </div>
-        <img class="annette" src="webp/annette.webp" alt="billede af annette" />
-
-      <section class="kontakt_formular">
-          <h3>Alle spørgsmål er velkomnne.</h3>
-     <form>
-          <!-- Formular-indhold -->
-          <div class="form-felt">
-            <label class="navn" for="navn">Navn</label><br />
-            <input placeholder="Fx Anders Andersen" id="full-name" name="name" type="text" />
+      <div class="container">
+        <div class="flex">
+          <div class="kontakt_os">
+            <h2>Kontakt os</h2>
+            <p class="p_formular">Udfyld kontaktformularen for at kontakte os. Vi glæder os til at høre fra dig.</p>
           </div>
+          <img class="annette" src="webp/annette.webp" alt="billede af annette" />
 
-          <div class="form-felt">
-            <label class="email" for="email">E-mail</label><br />
-            <input placeholder="Fx mail@hotmail.com" id="email" name="email" type="email" />
-          </div>
+          <section class="kontakt_formular">
+            <h3>Alle spørgsmål er velkomnne.</h3>
+            <form>
+              <!-- Formular-indhold -->
+              <div class="form-felt">
+                <label class="navn" for="navn">Navn</label><br />
+                <input placeholder="Fx Anders Andersen" id="full-name" name="name" type="text" />
+              </div>
 
-          <div class="form-felt">
-            <label class="tlf" for="tlf">Telefon</label><br />
-            <input placeholder="Fx 12345678" id="tlf" name="tlf" type="tel" />
-          </div>
+              <div class="form-felt">
+                <label class="email" for="email">E-mail</label><br />
+                <input placeholder="Fx mail@hotmail.com" id="email" name="email" type="email" />
+              </div>
 
-          <div class="form-felt">
-            <label class="besked" for="besked">Besked<br />
-            </label> 
-            
-            <input class="input_besked" placeholder="Skriv din besked" id="besked" name="besked" type="text" />
-          </div>
+              <div class="form-felt">
+                <label class="tlf" for="tlf">Telefon</label><br />
+                <input placeholder="Fx 12345678" id="tlf" name="tlf" type="tel" />
+              </div>
 
-        <button>Send besked</button>
-        <!-- </div> -->
+              <div class="form-felt">
+                <label class="besked" for="besked">Besked<br /> </label>
 
-      </form>
-      </section>
+                <input class="input_besked" placeholder="Skriv din besked" id="besked" name="besked" type="text" />
+              </div>
+
+              <button>Send besked</button>
+              <!-- </div> -->
+            </form>
+          </section>
+        </div>
       </div>
-</main>
+    </main>
 
-  <script src="login.js"></script>
-     <script src="index.js"></script>
- 
+    <script src="login.js"></script>
+    <script src="index.js"></script>
+
     <footer>
       <div class="box1">
         <h4>
@@ -106,22 +110,17 @@
           <b>Åbningstider</b>
           <br />
         </h4>
-                          <div class="line-1"></div>
+        <div class="line-1"></div>
         <p>Døgnåbent</p>
       </div>
       <div class="box3">
         <h4>
           <b>Kontakt</b>
-
         </h4>
-                <div class="line-1"></div>
+        <div class="line-1"></div>
         <div class="tlf_icon">
           <a href="tel:39406030">
-            <img
-              class="icon_tlf"
-              src="icons/call-svgrepo-com.svg"
-              alt="tlf_icon"
-            />
+            <img class="icon_tlf" src="icons/call-svgrepo-com.svg" alt="tlf_icon" />
           </a>
           <p>Tlf. 39406030</p>
         </div>
@@ -138,7 +137,5 @@
         </div>
       </div>
     </footer>
-
-    </body>
- 
+  </body>
 </html>
