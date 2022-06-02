@@ -73,7 +73,7 @@ button:hover {
   font-size: 30px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 627px) {
   .toggle-btn {
     display: block;
   }
@@ -200,4 +200,9 @@ button {
   font-size: 16px;
   border-radius: 9px;
   font-family: tekst;
+}
+
+.line-1 {
+  border-top: 1px solid black;
+  margin-bottom: 20px;
 }
